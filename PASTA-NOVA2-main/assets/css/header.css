@@ -22,7 +22,7 @@
 .menu-lista{
     display: none;
     position: absolute;
-    width: 60vh;
+    width: 60vw;
     text-transform: uppercase;
 
 }
@@ -36,18 +36,17 @@
 }
 .menu-lista-titulo{
     color: var(--laranja);
-    front-weight:700;
 }
 
 
 .seletor-menu{
     display: none;
 }
-
 .menu-lista-link{
-    background: var(--azul-degrade--);
-    --webkit-background-clip:text;
+    background: var(--azul-degrade);
+    --webkit-background-clip: text;
     --webkit-text-fill-color:transparent;
     background-clip: text;
-    text-transform: uppercasess;
+    text-transform: uppercase;
 }
+
